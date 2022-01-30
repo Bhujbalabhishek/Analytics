@@ -1,0 +1,42 @@
+
+version: 2
+
+models:
+    - name: Covid19sort
+      description: "A starter dbt model for covid19"
+      columns:
+          - name: _ROW
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+    - name: covid19sort2
+      description: "A starter dbt model"
+      columns:
+          - name: _ROW
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+    - name: covid19_highdeaths
+      description: "A starter dbt model for covid19"
+      columns:
+          - name: _ROW
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+    - name: covid19_highdeaths2
+      description: "A starter dbt model"
+      columns:
+          - name: _ROW
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+
+
